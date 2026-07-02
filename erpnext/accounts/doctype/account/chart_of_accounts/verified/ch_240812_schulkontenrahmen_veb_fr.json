@@ -266,7 +266,7 @@
                     "Assurances sociales et institutions de prévoyance": {
                         "account_number": "2270"
                     },
-                    "Salaires à verser": {
+                    "Payroll Payable": {
                         "account_number": "2271", "account_category": "Other Payables"
                     },
                     "Impôt à la source": {
