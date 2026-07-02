@@ -1,539 +1,535 @@
-# Copyright (c) 2015, Frappe Technologies Pvt. Ltd. and Contributors
-# License: GNU General Public License v3. See license.txt
-
-
-from frappe import _
-
-
-def get():
-	return {
-        _("Assets"): {
+{
+	"country_code": "ch",
+	"name": "240812 School Chart of Accounts VEB - EN",
+    "tree": {
+        "Assets": {
             "account_number": "1",
             "is_group": 1,
             "root_type": "Asset",
-            _("Current Assets"): {
+            "Current Assets": {
                 "account_number": "10",
                 "is_group": 1,
-                _("Treasury"): {
+                "Cash and Cash Equivalents": {
                     "account_number": "100",
                     "is_group": 1,
-                    _("Cash"): {
+                    "Cash": {
                         "account_number": "1000",
                         "account_type": "Cash"
                     },
-                    _("Bank Balance"): {
+                    "Bank Balance": {
                         "account_number": "1020",
                         "account_type": "Bank"
                     }
                 },
-                _("Short-Term Listed Securities"): {
+                "Short-term Marketable Securities": {
                     "account_number": "106",
                     "is_group": 1,
-                    _("Securities"): {
+                    "Securities": {
                         "account_number": "1060"
                     },
-                    _("Value Adjustments on Securities"): {
+                    "Valuation Adjustments on Securities": {
                         "account_number": "1069"
                     }
                 },
-                _("Receivables from Sale of Goods and Services"): {
+                "Trade Receivables": {
                     "account_number": "110",
                     "is_group": 1,
-                    _("Receivables from Deliveries and Services (Debtors)"): {
+                    "Trade Receivables (Debtors)": {
                         "account_number": "1100"
                     },
-                    _("Dél credere"): {
+                    "Allowance for Doubtful Accounts": {
                         "account_number": "1109"
                     }
                 },
-                _("Other Short-Term Receivables"): {
+                "Other Short-term Receivables": {
                     "account_number": "114",
                     "is_group": 1,
-                    _("Advances and Loans"): {
+                    "Advances and Loans": {
                         "account_number": "1140"
                     },
-                    _("Value Adjustments on Advances and Loans"): {
+                    "Valuation Adjustments on Advances and Loans": {
                         "account_number": "1149"
                     },
-                    _("VAT Tax Credit on Materials, Goods, Services, Energy"): {
+                    "VAT Input Tax Credit on Materials, Goods, Services, Energy": {
                         "account_number": "1170"
                     },
-                    _("VAT Tax Credit on Investments, Other Operating Expenses"): {
+                    "VAT Input Tax Credit on Investments and Other Operating Expenses": {
                         "account_number": "1171"
                     },
-                    _("Withholding Tax"): {
+                    "Withholding Tax Receivable": {
                         "account_number": "1176"
                     },
-                    _("Receivables from Social Security and Pension Institutions"): {
+                    "Receivables from Social Insurance and Pension Institutions": {
                         "account_number": "1180"
                     },
-                    _("Withholding Tax at Source"): {
+                    "Withholding Tax": {
                         "account_number": "1189"
                     },
-                    _("Other Short-Term Receivables"): {
+                    "Other Short-term Receivables": {
                         "account_number": "1190"
                     },
-                    _("Value Adjustments on Other Short-Term Receivables"): {
+                    "Valuation Adjustments on Other Short-term Receivables": {
                         "account_number": "1199"
                     }
                 },
-                _("Inventories and Uninvoiced Services"): {
+                "Inventories and Unbilled Services": {
                     "account_number": "120",
                     "is_group": 1,
-                    _("Commercial Goods"): {
+                    "Merchandise Inventory": {
                         "account_number": "1200"
                     },
-                    _("Raw Materials"): {
+                    "Raw Materials": {
                         "account_number": "1210"
                     },
-                    _("Work Materials"): {
+                    "Work Materials": {
                         "account_number": "1220"
                     },
-                    _("Auxiliary and Consumable Materials"): {
+                    "Auxiliary and Consumable Materials": {
                         "account_number": "1230"
                     },
-                    _("Consignment Commercial Goods"): {
+                    "Merchandise on Consignment": {
                         "account_number": "1250"
                     },
-                    _("Finished Goods"): {
+                    "Finished Goods": {
                         "account_number": "1260"
                     },
-                    _("Semi-Finished Goods"): {
+                    "Semi-finished Goods": {
                         "account_number": "1270"
                     },
-                    _("Uninvoiced Services"): {
+                    "Unbilled Services": {
                         "account_number": "1280"
                     }
                 },
-                _("Prepaid Expenses"): {
+                "Prepaid Expenses": {
                     "account_number": "130",
                     "is_group": 1,
-                    _("Expenses Paid for the Following Period"): {
+                    "Expenses Paid for the Following Financial Year": {
                         "account_number": "1300"
                     },
-                    _("Income Not Yet Received"): {
+                    "Income Not Yet Received": {
                         "account_number": "1301"
                     }
                 }
             },
-            _("Fixed Assets"): {
+            "Non-current Assets": {
                 "account_number": "14",
                 "is_group": 1,
-                _("Financial Investments"): {
+                "Financial Investments": {
                     "account_number": "140",
                     "is_group": 1,
-                    _("Securities"): {
+                    "Securities": {
                         "account_number": "1400"
                     },
-                    _("Value Adjustments on Securities"): {
+                    "Valuation Adjustments on Securities": {
                         "account_number": "1409"
                     },
-                    _("Loans"): {
+                    "Loans": {
                         "account_number": "1440"
                     },
-                    _("Mortgages"): {
+                    "Mortgages": {
                         "account_number": "1441"
                     },
-                    _("Value Adjustments on Long-Term Receivables"): {
+                    "Valuation Adjustments on Long-term Receivables": {
                         "account_number": "1449"
                     }
                 },
-                _("Participations"): {
+                "Investments": {
                     "account_number": "148",
                     "is_group": 1,
-                    _("Participations"): {
+                    "Investments": {
                         "account_number": "1480"
                     },
-                    _("Value Adjustments on Participations"): {
+                    "Valuation Adjustments on Investments": {
                         "account_number": "1489"
                     }
                 },
-                _("Tangible Movable Assets"): {
+                "Tangible Movable Fixed Assets": {
                     "account_number": "150",
                     "is_group": 1,
-                    _("Machinery and Equipment"): {
+                    "Machinery and Equipment": {
                         "account_number": "1500"
                     },
-                    _("Value Adjustments on Machinery and Equipment"): {
+                    "Valuation Adjustments on Machinery and Equipment": {
                         "account_number": "1509"
                     },
-                    _("Furniture and Fixtures"): {
+                    "Furniture and Fixtures": {
                         "account_number": "1510"
                     },
-                    _("Value Adjustments on Furniture and Fixtures"): {
+                    "Valuation Adjustments on Furniture and Fixtures": {
                         "account_number": "1519"
                     },
-                    _("Office Machines, IT, Communication Technology"): {
+                    "Office Equipment, IT, Communication Technology": {
                         "account_number": "1520"
                     },
-                    _("Value Adjustments on Office Machines, IT, Communication Technology"): {
+                    "Valuation Adjustments on Office Equipment, IT, Communication Technology": {
                         "account_number": "1529"
                     },
-                    _("Vehicles"): {
+                    "Vehicles": {
                         "account_number": "1530"
                     },
-                    _("Value Adjustments on Vehicles"): {
+                    "Valuation Adjustments on Vehicles": {
                         "account_number": "1539"
                     },
-                    _("Tools and Instruments"): {
+                    "Tools and Instruments": {
                         "account_number": "1540"
                     },
-                    _("Value Adjustments on Tools and Instruments"): {
+                    "Valuation Adjustments on Tools and Instruments": {
                         "account_number": "1549"
                     }
                 },
-                _("Tangible Immovable Assets"): {
+                "Tangible Real Estate Fixed Assets": {
                     "account_number": "160",
                     "is_group": 1,
-                    _("Commercial Buildings"): {
+                    "Commercial Buildings": {
                         "account_number": "1600"
                     },
-                    _("Value Adjustments on Commercial Buildings"): {
+                    "Valuation Adjustments on Commercial Buildings": {
                         "account_number": "1609"
                     }
                 },
-                _("Intangible Assets"): {
+                "Intangible Assets": {
                     "account_number": "170",
                     "is_group": 1,
-                    _("Patents, Know-how, Licenses, Rights, Developments"): {
+                    "Patents, Know-how, Licenses, Rights, Developments": {
                         "account_number": "1700"
                     },
-                    _("Value Adjustments on Patents, Know-how, Licenses, Rights, Developments"): {
+                    "Valuation Adjustments on Patents, Know-how, Licenses, Rights, Developments": {
                         "account_number": "1709"
                     },
-                    _("Goodwill"): {
+                    "Goodwill": {
                         "account_number": "1770"
                     },
-                    _("Value Adjustments on Goodwill"): {
+                    "Valuation Adjustments on Goodwill": {
                         "account_number": "1779"
                     }
                 },
-                _("Unpaid Share Capital, Partnership Interests, or Foundation Interests"): {
+                "Unpaid Share, Membership or Foundation Capital": {
                     "account_number": "180",
                     "is_group": 1,
-                    _("Unpaid Share Capital, Partnership Interests, or Foundation Interests"): {
+                    "Unpaid Share, Membership or Foundation Capital": {
                         "account_number": "1850"
                     }
                 }
             }
         },
-        _("Liabilities"): {
+        "Liabilities": {
         "account_number": "2",
         "is_group": 1,
         "root_type": "Liability",
-            _("Short-Term Liabilities"): {
+            "Current Liabilities": {
                 "account_number": "20",
                 "is_group": 1,
-                _("Liabilities from Deliveries and Services"): {
+                "Trade Payables": {
                     "account_number": "200",
                     "is_group": 1,
-                    _("Liabilities from Deliveries and Services (Creditors)"): {
+                    "Trade Payables (Creditors)": {
                         "account_number": "2000"
                     },
-                    _("Advances Received"): {
+                    "Advance Payments Received": {
                         "account_number": "2030"
                     }
                 },
-                _("Short-Term Interest-Bearing Liabilities"): {
+                "Short-term Interest-bearing Liabilities": {
                     "account_number": "210",
                     "is_group": 1,
-                    _("Bank Liabilities"): {
+                    "Bank Loans": {
                         "account_number": "2100"
                     },
-                    _("Financial Lease Liabilities"): {
+                    "Finance Lease Liabilities": {
                         "account_number": "2120"
                     },
-                    _("Other Interest-Bearing Liabilities"): {
+                    "Other Interest-bearing Liabilities": {
                         "account_number": "2140"
                     }
                 },
-                _("Other Short-Term Liabilities"): {
+                "Other Short-term Liabilities": {
                     "account_number": "220",
                     "is_group": 1,
-                    _("VAT Due (Turnover Tax)"): {
+                    "VAT Payable": {
                         "account_number": "2200"
                     },
-                    _("VAT Clearing Account"): {
+                    "VAT Clearing Account": {
                         "account_number": "2201"
                     },
-                    _("Withholding Tax"): {
+                    "Withholding Tax": {
                         "account_number": "2206"
                     },
-                    _("Direct Taxes"): {
+                    "Direct Taxes": {
                         "account_number": "2208"
                     },
-                    _("Other Short-Term Liabilities"): {
+                    "Other Short-term Liabilities": {
                         "account_number": "2210"
                     },
-                    _("Decided Distributions"): {
+                    "Declared Distributions": {
                         "account_number": "2261"
                     },
-                    _("Social Security and Pension Institutions"): {
+                    "Social Insurance and Pension Institutions": {
                         "account_number": "2270"
                     },
-                    _("Wages Payable"): {
+                    "Payroll Payable": {
                         "account_number": "2271"
                     },
-                    _("Withholding Tax at Source"): {
+                    "Withholding Tax": {
                         "account_number": "2279"
                     }
                 },
-                _("Accrued Expenses and Short-Term Provisions"): {
+                "Accrued Expenses and Short-term Provisions": {
                     "account_number": "230",
                     "is_group": 1,
-                    _("Expenses Not Yet Paid"): {
+                    "Expenses Not Yet Paid": {
                         "account_number": "2300"
                     },
-                    _("Income Received for the Following Period"): {
+                    "Income Received for the Following Financial Year": {
                         "account_number": "2301"
                     },
-                    _("Short-Term Provisions"): {
+                    "Short-term Provisions": {
                         "account_number": "2330"
                     }
                 }
             },
-            _("Long-Term Liabilities"): {
+            "Long-term Liabilities": {
                 "account_number": "24",
                 "is_group": 1,
-                _("Long-Term Interest-Bearing Liabilities"): {
+                "Long-term Interest-bearing Liabilities": {
                     "account_number": "240",
                     "is_group": 1,
-                    _("Bank Liabilities"): {
+                    "Bank Loans": {
                         "account_number": "2400"
                     },
-                    _("Financial Lease Liabilities"): {
+                    "Finance Lease Liabilities": {
                         "account_number": "2420"
                     },
-                    _("Bond Issues"): {
+                    "Bond Issues": {
                         "account_number": "2430"
                     },
-                    _("Loans"): {
+                    "Loans": {
                         "account_number": "2450"
                     },
-                    _("Mortgages"): {
+                    "Mortgages": {
                         "account_number": "2451"
                     }
                 },
-                _("Other Long-Term Liabilities"): {
+                "Other Long-term Liabilities": {
                     "account_number": "250",
                     "is_group": 1,
-                    _("Other Long-Term Liabilities (Non-Interest Bearing)"): {
+                    "Other Long-term Liabilities (Non-interest-bearing)": {
                         "account_number": "2500"
                     }
                 },
-                _("Provisions and Similar Statutory Items"): {
+                "Provisions and Similar Items Required by Law": {
                     "account_number": "260",
                     "is_group": 1,
-                    _("Provisions"): {
+                    "Provisions": {
                         "account_number": "2600"
                     }
                 }
             },
-            _("Equity (Legal Entities)"): {
+            "Equity (Legal Entities)": {
                 "account_number": "28",
                 "is_group": 1,
-                _("Share Capital, Partnership Interests, or Foundation Interests"): {
+                "Share, Membership or Foundation Capital": {
                     "account_number": "280",
                     "is_group": 1,
-                    _("Share Capital, Partnership Interests, or Foundation Interests"): {
+                    "Share, Membership or Foundation Capital": {
                         "account_number": "2800"
                     }
                 },
-                _("Reserves and Net Income/Loss for the Period"): {
+                "Reserves and Current Year Result": {
                     "account_number": "290",
                     "is_group": 1,
-                    _("Legal Capital Reserve"): {
+                    "Legal Capital Reserve": {
                         "account_number": "2900"
                     },
-                    _("Reserve for Own Participations"): {
+                    "Reserve for Treasury Shares": {
                         "account_number": "2930"
                     },
-                    _("Revaluation Reserve"): {
+                    "Revaluation Reserve": {
                         "account_number": "2940"
                     },
-                    _("Legal Profit Reserve"): {
+                    "Legal Retained Earnings Reserve": {
                         "account_number": "2950"
                     },
-                    _("Voluntary Profit Reserves"): {
+                    "Voluntary Retained Earnings": {
                         "account_number": "2960"
                     },
-                    _("Retained Earnings or Loss Carryforward"): {
+                    "Retained Earnings or Accumulated Losses": {
                         "account_number": "2970"
                     },
-                    _("Net Income or Loss for the Period"): {
+                    "Profit or Loss for the Financial Year": {
                         "account_number": "2979"
                     },
-                    _("Own Shares, Partnership Interests, or Foundation Interests (Negative Item)"): {
+                    "Treasury Shares, Membership or Foundation Interests (Negative Item)": {
                         "account_number": "2980"
                     }
                 }
             }
         },
-        _("Operating Income from Deliveries and Services"): {
+        "Operating Revenue from Goods and Services": {
             "account_number": "3",
             "is_group": 1,
             "root_type": "Income",
-            _("Manufacturing Income"): {
+            "Manufacturing Revenue": {
                 "account_number": "3000"
             },
-            _("Commercial Income"): {
+            "Merchandise Revenue": {
                 "account_number": "3200"
             },
-            _("Service Income"): {
+            "Service Revenue": {
                 "account_number": "3400"
             },
-            _("Other Income from Deliveries and Services"): {
+            "Other Revenue from Goods and Services": {
                 "account_number": "3600"
             },
-            _("Internal Services"): {
+            "Internal Services": {
                 "account_number": "3700"
             },
-            _("Internal Consumption"): {
+            "Internal Consumption": {
                 "account_number": "3710"
             },
-            _("Income Reductions"): {
+            "Revenue Reductions": {
                 "account_number": "3800"
             },
-            _("Losses on Receivables (Debtors), Change in Dél credere"): {
+            "Bad Debt Losses (Debtors), Change in Allowance for Doubtful Accounts": {
                 "account_number": "3805"
             },
-            _("Changes in Inventories of Semi-Finished Goods"): {
+            "Changes in Semi-finished Goods Inventory": {
                 "account_number": "3900"
             },
-            _("Changes in Inventories of Finished Goods"): {
+            "Changes in Finished Goods Inventory": {
                 "account_number": "3901"
             },
-            _("Changes in Inventories of Uninvoiced Services"): {
+            "Changes in Unbilled Services Inventory": {
                 "account_number": "3940"
             }
         },
-        _("Material, Goods, Services, and Energy Expenses"): {
+        "Material, Merchandise, Services and Energy Expenses": {
             "account_number": "4",
             "is_group": 1,
             "root_type": "Expense",
-            _("Production Material Expenses"): {
+            "Production Material Expenses": {
                 "account_number": "4000"
             },
-            _("Goods Expenses"): {
+            "Merchandise Expenses": {
                 "account_number": "4200"
             },
-            _("Services Rendered Expenses"): {
+            "Service Expenses": {
                 "account_number": "4400"
             },
-            _("Production Energy Expenses"): {
+            "Production Energy Expenses": {
                 "account_number": "4500"
             },
-            _("Expense Reductions"): {
+            "Expense Reductions": {
                 "account_number": "4900"
             }
         },
-        _("Personnel Expenses"): {
+        "Personnel Expenses": {
             "account_number": "5",
             "is_group": 1,
             "root_type": "Expense",
-            _("Salary Expenses"): {
+            "Salary Expenses": {
                 "account_number": "5200"
             },
-            _("Social Security Expenses"): {
+            "Social Insurance Expenses": {
                 "account_number": "5700"
             },
-            _("Other Personnel Expenses"): {
+            "Other Personnel Expenses": {
                 "account_number": "5800"
             },
-            _("Third-Party Services"): {
+            "Third-party Services": {
                 "account_number": "5900"
             }
         },
-        _("Other Operating Expenses, Depreciation and Value Adjustments, and Financial Result"): {
+        "Other Operating Expenses, Depreciation and Valuation Adjustments, and Financial Result": {
             "account_number": "6",
             "is_group": 1,
             "root_type": "Expense",
-            _("Real Estate Expenses"): {
+            "Property Expenses": {
                 "account_number": "6000"
             },
-            _("Maintenance, Repairs, Replacement of Tangible Movable Assets"): {
+            "Maintenance, Repairs, Replacement of Tangible Movable Fixed Assets": {
                 "account_number": "6100"
             },
-            _("Leasing Expenses for Tangible Movable Assets"): {
+            "Lease Expenses for Tangible Movable Fixed Assets": {
                 "account_number": "6105"
             },
-            _("Vehicle and Transport Expenses"): {
+            "Vehicle and Transport Expenses": {
                 "account_number": "6200"
             },
-            _("Vehicle Leasing and Rental"): {
+            "Vehicle Leasing and Rental": {
                 "account_number": "6260"
             },
-            _("Insurance, Taxes, Fees, Licenses"): {
+            "Insurance, Taxes, Fees, Licenses": {
                 "account_number": "6300"
             },
-            _("Energy and Disposal Expenses"): {
+            "Energy and Disposal Expenses": {
                 "account_number": "6400"
             },
-            _("Administrative Expenses"): {
+            "Administrative Expenses": {
                 "account_number": "6500"
             },
-            _("IT Expenses, Including Leasing"): {
+            "IT Expenses, Including Leasing": {
                 "account_number": "6570"
             },
-            _("Advertising Expenses"): {
+            "Advertising Expenses": {
                 "account_number": "6600"
             },
-            _("Other Operating Expenses"): {
+            "Other Operating Expenses": {
                 "account_number": "6700"
             },
-            _("Depreciation and Value Adjustments on Assets"): {
+            "Depreciation and Valuation Adjustments on Fixed Assets": {
                 "account_number": "6800"
             },
-            _("Financial Expenses"): {
+            "Financial Expenses": {
                 "account_number": "6900"
             },
-            _("Financial Income"): {
+            "Financial Income": {
                 "account_number": "6950"
             }
         },
-        _("Ancillary Operating Result"): {
+        "Ancillary Operating Result": {
             "account_number": "7",
             "is_group": 1,
             "root_type": "Income",
-            _("Income from Ancillary Activities"): {
+            "Income from Ancillary Activities": {
                 "account_number": "7000"
             },
-            _("Expenses from Ancillary Activities"): {
+            "Expenses from Ancillary Activities": {
                 "account_number": "7010"
             },
-            _("Operating Income from Real Estate"): {
+            "Operating Property Income": {
                 "account_number": "7500"
             },
-            _("Operating Expenses from Real Estate"): {
+            "Operating Property Expenses": {
                 "account_number": "7510"
             }
         },
-        _("Non-Operating, Exceptional, One-Time, or Prior Period Expenses and Income"): {
+        "Non-operating, Extraordinary, One-time or Prior-period Expenses and Income": {
             "account_number": "8",
             "is_group": 1,
             "root_type": "Expense",
-            _("Non-Operating Expenses"): {
+            "Non-operating Expenses": {
                 "account_number": "8000"
             },
-            _("Non-Operating Income"): {
+            "Non-operating Income": {
                 "account_number": "8100"
             },
-            _("Exceptional, One-Time, or Prior Period Expenses"): {
+            "Extraordinary, One-time or Prior-period Expenses": {
                 "account_number": "8500"
             },
-            _("Exceptional, One-Time, or Prior Period Income"): {
+            "Extraordinary, One-time or Prior-period Income": {
                 "account_number": "8510"
             },
-            _("Direct Taxes"): {
+            "Direct Taxes": {
                 "account_number": "8900"
             }
         },
-        _("Closing"): {
+        "Closing": {
             "account_number": "9",
             "is_group": 1,
             "root_type": "Equity",
-            _("Net Income or Loss for the Period"): {
+            "Profit or Loss for the Financial Year": {
                 "account_number": "9200"
             }
-        },
+        }
     }
+}
