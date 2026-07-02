@@ -36354,7 +36354,7 @@ msgstr ""
 #: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py:156
 #: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts_with_account_number.py:262
 msgid "Payroll Payable"
-msgstr "Paie à Payer"
+msgstr "Salaire à verser"
 
 #. Option for the 'Status' (Select) field in DocType 'Timesheet'
 #: erpnext/projects/doctype/timesheet/timesheet.json
