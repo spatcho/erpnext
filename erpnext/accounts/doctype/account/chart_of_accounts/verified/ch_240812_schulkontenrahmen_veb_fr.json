@@ -1,0 +1,534 @@
+```json
+{
+	"country_code": "ch",
+	"name": "240812 Schulkontenrahmen VEB - FR",
+    "tree": {
+        "Actifs": {
+            "account_number": "1",
+            "is_group": 1,
+            "root_type": "Asset",
+            "Actifs circulants": {
+                "account_number": "10",
+                "is_group": 1,
+                "Trésorerie": {
+                    "account_number": "100",
+                    "is_group": 1,
+                    "Caisse": {
+                        "account_number": "1000",
+                        "account_type": "Cash"
+                    },
+                    "Solde bancaire": {
+                        "account_number": "1020",
+                        "account_type": "Bank"
+                    }
+                },
+                "Avoirs cotés en bourse détenus à court terme": {
+                    "account_number": "106",
+                    "is_group": 1,
+                    "Titres": {
+                        "account_number": "1060"
+                    },
+                    "Corrections de valeur sur titres": {
+                        "account_number": "1069"
+                    }
+                },
+                "Créances résultant de la vente de biens et de prestationsde services": {
+                    "account_number": "110",
+                    "is_group": 1,
+                    "Créances sur livraisons et prestations (débiteurs)": {
+                        "account_number": "1100"
+                    },
+                    "Dél credere": {
+                        "account_number": "1109"
+                    }
+                },
+                "Autres créances à court terme": {
+                    "account_number": "114",
+                    "is_group": 1,
+                    "Avances et prêts": {
+                        "account_number": "1140"
+                    },
+                    "Corrections de valeur sur avances et prêts": {
+                        "account_number": "1149"
+                    },
+                    "Crédit d'impôt TVA sur matériel, marchandises, services, énergie": {
+                        "account_number": "1170"
+                    },
+                    "Crédit d'impôt TVA sur investissements, autres charges d'exploitation": {
+                        "account_number": "1171"
+                    },
+                    "Impôt anticipé": {
+                        "account_number": "1176"
+                    },
+                    "Créances envers les assurances sociales et les institutions de prévoyance": {
+                        "account_number": "1180"
+                    },
+                    "Impôt à la source": {
+                        "account_number": "1189"
+                    },
+                    "Autres créances à court terme": {
+                        "account_number": "1190"
+                    },
+                    "Corrections de valeur sur autres créances à court terme": {
+                        "account_number": "1199"
+                    }
+                },
+                "Stocks et prestations non facturées": {
+                    "account_number": "120",
+                    "is_group": 1,
+                    "Marchandises commerciales": {
+                        "account_number": "1200"
+                    },
+                    "Matières premières": {
+                        "account_number": "1210"
+                    },
+                    "Matières d'œuvre": {
+                        "account_number": "1220"
+                    },
+                    "Matériel auxiliaire et consommable": {
+                        "account_number": "1230"
+                    },
+                    "Marchandises commerciales en consignation": {
+                        "account_number": "1250"
+                    },
+                    "Produits finis": {
+                        "account_number": "1260"
+                    },
+                    "Produits semi-finis": {
+                        "account_number": "1270"
+                    },
+                    "Prestations non facturées": {
+                        "account_number": "1280"
+                    }
+                },
+                "Charges constatées d'avance": {
+                    "account_number": "130",
+                    "is_group": 1,
+                    "Charges payées pour l'exercice suivant": {
+                        "account_number": "1300"
+                    },
+                    "Produits non encore reçus": {
+                        "account_number": "1301"
+                    }
+                }
+            },
+            "Actifs immobilisés": {
+                "account_number": "14",
+                "is_group": 1,
+                "Placements financiers": {
+                    "account_number": "140",
+                    "is_group": 1,
+                    "Titres": {
+                        "account_number": "1400"
+                    },
+                    "Corrections de valeur sur titres": {
+                        "account_number": "1409"
+                    },
+                    "Prêts": {
+                        "account_number": "1440"
+                    },
+                    "Hypothèques": {
+                        "account_number": "1441"
+                    },
+                    "Corrections de valeur sur créances à long terme": {
+                        "account_number": "1449"
+                    }
+                },
+                "Participations": {
+                    "account_number": "148",
+                    "is_group": 1,
+                    "Participations": {
+                        "account_number": "1480"
+                    },
+                    "Corrections de valeur sur participations": {
+                        "account_number": "1489"
+                    }
+                },
+                "Immobilisations corporelles mobilières": {
+                    "account_number": "150",
+                    "is_group": 1,
+                    "Machines et appareils": {
+                        "account_number": "1500"
+                    },
+                    "Corrections de valeur sur machines et appareils": {
+                        "account_number": "1509"
+                    },
+                    "Mobilier et agencements": {
+                        "account_number": "1510"
+                    },
+                    "Corrections de valeur sur mobilier et agencements": {
+                        "account_number": "1519"
+                    },
+                    "Machines de bureau, informatique, technologie de communication": {
+                        "account_number": "1520"
+                    },
+                    "Corrections de valeur sur machines de bureau, informatique, technologie de communication": {
+                        "account_number": "1529"
+                    },
+                    "Véhicules": {
+                        "account_number": "1530"
+                    },
+                    "Corrections de valeur sur véhicules": {
+                        "account_number": "1539"
+                    },
+                    "Outils et instruments": {
+                        "account_number": "1540"
+                    },
+                    "Corrections de valeur sur outils et instruments": {
+                        "account_number": "1549"
+                    }
+                },
+                "Immobilisations corporelles immobilières": {
+                    "account_number": "160",
+                    "is_group": 1,
+                    "Immeubles commerciaux": {
+                        "account_number": "1600"
+                    },
+                    "Corrections de valeur sur immeubles commerciaux": {
+                        "account_number": "1609"
+                    }
+                },
+                "Immobilisations incorporelles": {
+                    "account_number": "170",
+                    "is_group": 1,
+                    "Brevets, savoir-faire, licences, droits, développements": {
+                        "account_number": "1700"
+                    },
+                    "Corrections de valeur sur brevets, savoir-faire, licences, droits, développements": {
+                        "account_number": "1709"
+                    },
+                    "Goodwill": {
+                        "account_number": "1770"
+                    },
+                    "Corrections de valeur sur goodwill": {
+                        "account_number": "1779"
+                    }
+                },
+                "Capital social, parts sociales ou de fondation non libéré": {
+                    "account_number": "180",
+                    "is_group": 1,
+                    "Capital social, parts sociales ou de fondation non libéré": {
+                        "account_number": "1850"
+                    }
+                }
+            }
+        },
+        "Passifs": {
+        "account_number": "2",
+        "is_group": 1,
+        "root_type": "Liability",
+            "Dettes à court terme": {
+                "account_number": "20",
+                "is_group": 1,
+                "Dettes sur livraisons et prestations": {
+                    "account_number": "200",
+                    "is_group": 1,
+                    "Dettes sur livraisons et prestations (créanciers)": {
+                        "account_number": "2000"
+                    },
+                    "Acomptes reçus": {
+                        "account_number": "2030"
+                    }
+                },
+                "Dettes à intérêt à court terme": {
+                    "account_number": "210",
+                    "is_group": 1,
+                    "Dettes bancaires": {
+                        "account_number": "2100"
+                    },
+                    "Dettes de leasing financier": {
+                        "account_number": "2120"
+                    },
+                    "Autres dettes à intérêt": {
+                        "account_number": "2140"
+                    }
+                },
+                "Autres dettes à court terme": {
+                    "account_number": "220",
+                    "is_group": 1,
+                    "TVA due (impôt sur le chiffre d'affaires)": {
+                        "account_number": "2200"
+                    },
+                    "Compte de compensation TVA": {
+                        "account_number": "2201"
+                    },
+                    "Impôt anticipé": {
+                        "account_number": "2206"
+                    },
+                    "Impôts directs": {
+                        "account_number": "2208"
+                    },
+                    "Autres dettes à court terme": {
+                        "account_number": "2210"
+                    },
+                    "Distributions décidées": {
+                        "account_number": "2261"
+                    },
+                    "Assurances sociales et institutions de prévoyance": {
+                        "account_number": "2270"
+                    },
+                    "Impôt à la source": {
+                        "account_number": "2279"
+                    }
+                },
+                "Charges à payer et provisions à court terme": {
+                    "account_number": "230",
+                    "is_group": 1,
+                    "Charges non encore payées": {
+                        "account_number": "2300"
+                    },
+                    "Produits reçus pour l'exercice suivant": {
+                        "account_number": "2301"
+                    },
+                    "Provisions à court terme": {
+                        "account_number": "2330"
+                    }
+                }
+            },
+            "Dettes à long terme": {
+                "account_number": "24",
+                "is_group": 1,
+                "Dettes à intérêt à long terme": {
+                    "account_number": "240",
+                    "is_group": 1,
+                    "Dettes bancaires": {
+                        "account_number": "2400"
+                    },
+                    "Dettes de leasing financier": {
+                        "account_number": "2420"
+                    },
+                    "Émissions d'obligations": {
+                        "account_number": "2430"
+                    },
+                    "Prêts": {
+                        "account_number": "2450"
+                    },
+                    "Hypothèques": {
+                        "account_number": "2451"
+                    }
+                },
+                "Autres dettes à long terme": {
+                    "account_number": "250",
+                    "is_group": 1,
+                    "Autres dettes à long terme (sans intérêt)": {
+                        "account_number": "2500"
+                    }
+                },
+                "Provisions et postes similaires prévus par la loi": {
+                    "account_number": "260",
+                    "is_group": 1,
+                    "Provisions": {
+                        "account_number": "2600"
+                    }
+                }
+            },
+            "Capitaux propres (personnes juridiques)": {
+                "account_number": "28",
+                "is_group": 1,
+                "Capital social, parts sociales ou de fondation": {
+                    "account_number": "280",
+                    "is_group": 1,
+                    "Capital social, parts sociales ou de fondation": {
+                        "account_number": "2800"
+                    }
+                },
+                "Réserves et résultat de l'exercice": {
+                    "account_number": "290",
+                    "is_group": 1,
+                    "Réserve légale de capital": {
+                        "account_number": "2900"
+                    },
+                    "Réserve pour participations propres": {
+                        "account_number": "2930"
+                    },
+                    "Réserve de réévaluation": {
+                        "account_number": "2940"
+                    },
+                    "Réserve légale de bénéfices": {
+                        "account_number": "2950"
+                    },
+                    "Réserves facultatives de bénéfices": {
+                        "account_number": "2960"
+                    },
+                    "Report à nouveau ou report de pertes": {
+                        "account_number": "2970"
+                    },
+                    "Bénéfice ou perte de l'exercice": {
+                        "account_number": "2979"
+                    },
+                    "Actions propres, parts sociales ou parts de fondation (poste négatif)": {
+                        "account_number": "2980"
+                    }
+                }
+            }
+        },
+        "Produits d'exploitation sur livraisons et prestations": {
+            "account_number": "3",
+            "is_group": 1,
+            "root_type": "Income",
+            "Produits de fabrication": {
+                "account_number": "3000"
+            },
+            "Produits commerciaux": {
+                "account_number": "3200"
+            },
+            "Produits de services": {
+                "account_number": "3400"
+            },
+            "Autres produits sur livraisons et prestations": {
+                "account_number": "3600"
+            },
+            "Prestations internes": {
+                "account_number": "3700"
+            },
+            "Consommation interne": {
+                "account_number": "3710"
+            },
+            "Diminutions de produits": {
+                "account_number": "3800"
+            },
+            "Pertes sur créances (débiteurs), variation du dél credere": {
+                "account_number": "3805"
+            },
+            "Variations de stocks de produits semi-finis": {
+                "account_number": "3900"
+            },
+            "Variations de stocks de produits finis": {
+                "account_number": "3901"
+            },
+            "Variations de stocks de prestations non facturées": {
+                "account_number": "3940"
+            }
+        },
+        "Charges de matériel, marchandises, services et énergie": {
+            "account_number": "4",
+            "is_group": 1,
+            "root_type": "Expense",
+            "Charges de matériel de production": {
+                "account_number": "4000"
+            },
+            "Charges de marchandises": {
+                "account_number": "4200"
+            },
+            "Charges de services fournis": {
+                "account_number": "4400"
+            },
+            "Charges d'énergie pour la production": {
+                "account_number": "4500"
+            },
+            "Diminutions de charges": {
+                "account_number": "4900"
+            }
+        },
+        "Charges de personnel": {
+            "account_number": "5",
+            "is_group": 1,
+            "root_type": "Expense",
+            "Charges de salaires": {
+                "account_number": "5200"
+            },
+            "Charges d'assurances sociales": {
+                "account_number": "5700"
+            },
+            "Autres charges de personnel": {
+                "account_number": "5800"
+            },
+            "Prestations de tiers": {
+                "account_number": "5900"
+            }
+        },
+        "Autres charges d'exploitation, amortissements et corrections de valeur, ainsi que résultat financier": {
+            "account_number": "6",
+            "is_group": 1,
+            "root_type": "Expense",
+            "Charges immobilières": {
+                "account_number": "6000"
+            },
+            "Entretien, réparations, remplacement d'immobilisations corporelles mobilières": {
+                "account_number": "6100"
+            },
+            "Charges de leasing d'immobilisations corporelles mobilières": {
+                "account_number": "6105"
+            },
+            "Charges de véhicules et de transport": {
+                "account_number": "6200"
+            },
+            "Leasing et location de véhicules": {
+                "account_number": "6260"
+            },
+            "Assurances, taxes, redevances, licences": {
+                "account_number": "6300"
+            },
+            "Charges d'énergie et d'élimination": {
+                "account_number": "6400"
+            },
+            "Charges administratives": {
+                "account_number": "6500"
+            },
+            "Charges informatiques, y compris leasing": {
+                "account_number": "6570"
+            },
+            "Charges de publicité": {
+                "account_number": "6600"
+            },
+            "Autres charges d'exploitation": {
+                "account_number": "6700"
+            },
+            "Amortissements et corrections de valeur sur immobilisations": {
+                "account_number": "6800"
+            },
+            "Charges financières": {
+                "account_number": "6900"
+            },
+            "Produits financiers": {
+                "account_number": "6950"
+            }
+        },
+        "Résultat d'exploitation accessoire": {
+            "account_number": "7",
+            "is_group": 1,
+            "root_type": "Income",
+            "Produits d'activités annexes": {
+                "account_number": "7000"
+            },
+            "Charges d'activités annexes": {
+                "account_number": "7010"
+            },
+            "Produits immobiliers d'exploitation": {
+                "account_number": "7500"
+            },
+            "Charges immobilières d'exploitation": {
+                "account_number": "7510"
+            }
+        },
+        "Charges et produits non d'exploitation, exceptionnels, uniques ou hors période": {
+            "account_number": "8",
+            "is_group": 1,
+            "root_type": "Expense",
+            "Charges non d'exploitation": {
+                "account_number": "8000"
+            },
+            "Produits non d'exploitation": {
+                "account_number": "8100"
+            },
+            "Charges exceptionnelles, uniques ou hors période": {
+                "account_number": "8500"
+            },
+            "Produits exceptionnels, uniques ou hors période": {
+                "account_number": "8510"
+            },
+            "Impôts directs": {
+                "account_number": "8900"
+            }
+        },
+        "Clôture": {
+            "account_number": "9",
+            "is_group": 1,
+            "root_type": "Equity",
+            "Bénéfice ou perte de l'exercice": {
+                "account_number": "9200"
+            }
+        }
+    }
+}
+```
