@@ -272,7 +272,7 @@ def get():
                         "account_number": "2270"
                     },
                     _("Wages Payable"): {
-                        "account_number": "2271", "account_category": "Other Payables"
+                        "account_number": "2271"
                     },
                     _("Withholding Tax at Source"): {
                         "account_number": "2279"
@@ -535,5 +535,5 @@ def get():
             _("Net Income or Loss for the Period"): {
                 "account_number": "9200"
             }
-        }
+        },
     }
