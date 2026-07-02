@@ -267,7 +267,8 @@
                         "account_number": "2270"
                     },
                     "Payroll Payable": {
-                        "account_number": "2271"
+                        "account_number": "2271",
+                        "account_type": "Payroll Payable"
                     },
                     "Withholding Tax": {
                         "account_number": "2279"
